@@ -1,0 +1,47 @@
+/*Contacto*/
+.contacto {
+    font-size: $fuente-chica;
+    color: aliceblue;
+    background-color: $bg-formulario;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    margin: 60px auto;
+    text-align: right;
+}
+
+@media (max-width: 401px) {
+    .contacto {
+        width: auto;
+    }
+}
+
+form {
+    textarea {
+        min-width: auto;
+    }
+
+    input {
+        padding: 8px;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+
+    .boton-enviar {
+        border-radius: 20px;
+        border: none;
+
+        &:hover{
+            background-color: #53f4a3d2;
+        }
+    }
+
+    .boton-borrar{
+        @extend .boton-enviar
+    }
+
+    textarea {
+        margin-top: 10px;
+        @include medidas (100%, 250px)
+    }
+}

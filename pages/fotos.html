@@ -5,59 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="../css/styles.css">
+    <!--link Animate Css-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    <!--link Css-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!--Etiqueta SEO-->
+    <meta name="description" content="Explora una galería de fotos que muestran mi trabajo como actor profesional, incluyendo imágenes de mi book, sesiones fotográficas y trabajos en publicidad.">
+    <!--Keywords-->
+    <meta name="keywords" content="fotos de actor profesional, book fotográfico, fotografía teatral, fotografía publicitaria, sesión de fotos">
+
     <title>Galeria</title>
 </head>
+
 <body>
+
     <header>
-        <a href="../index.html"> <img class="logo1" src="/img/Logo-gian.PNG" alt="Logo-gian"></a>
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid">
 
-    <nav>
-        <ul class="menu-nav">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="video.html">Video</a></li>
-            <li><a href="fotos.html">Fotos</a></li>
-            <li><a href="cv.html">Cv</a></li>
-            <li><a href="contacto.html">Contactos</a></li>
-        </ul>
-    </nav>
+                <a href="../index.html"><img class="logo1" src="../img/Logo-gian.PNG" alt="Logo-gian"></a>
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-end">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fotos.html">Fotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cv.html">Cv</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
     </header>
     
 
     
-    <h1>Galeria</h1>
-    <section class="imagenes-galeria">
-        <ul>
-            <li><img src="../img/bienquerenciaTeatro.JPG" alt="escena1"></li>
-            <li><img src="../img/bienquerencia.jpg" alt="escena2"></li>
-            <li><img src="../img/Boock.jpg" alt="escena3"></li>
-            <li><img src="../img/BusoEgresado1.jpg" alt="escena4"></li>
-            <li><img src="../img/BusoEgresados.jpg" alt="escena5"></li>
-        </ul>
+    <h1 class="animate__animated animate__flash">Galeria</h1>
+    <section id="fotos">
+        <div class="container row padre-fotos" data-aos="fade-right">
+
+            <div class="hijos-fotos col-12 col-md-6">
+                <img src="../img/bienquerenciaTeatro.JPG" alt="escena1">
+            </div>
+
+            <div class="hijos-fotos col-12 col-md-6">
+                <img src="../img/bienquerencia.jpg" alt="escena2">
+
+            </div>
+
+            <div class="hijos-fotos col-12 col-md-6">
+                <img src="../img/Gian-29.JPG" alt="escena3">
+
+            </div>
+
+            <div class="hijos-fotos col-12 col-md-6">
+                <img src="../img/Gian-30.jpeg" alt="escena4">
+
+            </div>
+
+            <div class="hijos-fotos col-12 col-md-6">
+                <img src="../img/Gian_-17.jpg" alt="escena5">
+
+            </div>
+
+            <div class="hijos-fotos col-12 col-md-6">
+                <img src="../img/BusoEgresados.jpg" alt="escena6">
+
+            </div>
+
+
+
+        </div>
+
     </section>
 
 
 
-    <footer class="iconos-redes">  
-        <div class="info-footer">
+    <footer class="text-center text-white">
 
-            <h4> gianargento@gmail.com </h4>
-            <h4> +541141612451 </h4>
-
-        </div> 
-
-        <div>
-            <a href="https://www.youtube.com/@gianfrancoargento6535" target="_blank"><img src="../img/youtube.svg" alt="logo youtube"></a>
-            <a href="https://www.instagram.com/gian.argento" target="_blank"><img src="../img/instagram-logo-thin.svg" alt="logo instagra"></a>
-            <a href="https://www.tiktok.com/@gian.argento" target="_blank"><img src="../img/tiktok.svg" alt="logo tiktok"></a>
-            <a href="https://twitter.com/GianArgento" target="_blank"><img src="../img/twitter-logo-thin.svg" alt="logo twiter"></a>
-        </div>
-</footer>
-
+        <section class="mb-4" class="row redes">
     
+                <a class="iconos-redes" href="https://www.youtube.com/@gianfrancoargento6535" target="_blank"><img src="../img/youtube.svg" alt="logo youtube"></a>
+    
+                <a class="iconos-redes"  href="https://www.instagram.com/gian.argento" target="_blank"><img src="../img/instagram-logo-thin.svg" alt="logo instagra"></a>
+    
+                <a class="iconos-redes" href="https://www.tiktok.com/@gian.argento" target="_blank"><img src="../img/tiktok.svg" alt="logo tiktok"></a>
+    
+                <a class="iconos-redes" href="https://twitter.com/GianArgento" target="_blank"><img src="../img/twitter-logo-thin.svg" alt="logo twiter"></a>
+    
+        </section >
+            <!-- Copyright -->
+            <div class="text-center p-3 copyright" >
+            © 2023 Copyright todos los derechos reservados :
+                <a class="text-white" href=https://github.com/GianArgento?tab=repositories target="_blank"">Gianfranco argento</a>
+            </div>
+    </footer>
+
+<!--Link JavaScript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

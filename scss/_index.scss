@@ -1,0 +1,29 @@
+/*Index*/
+img {
+    @include medidas(100%, auto);
+}
+
+.sobre-mi {
+    p {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    }
+}
+
+/*Fotos index*/
+.img-escenas {
+    @include flex-row-center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    img {
+    @include medidas (300px, 200px);
+    padding: 2%;
+
+    &:hover {
+        @include medidas (350px, 250px);
+    }
+    }
+}

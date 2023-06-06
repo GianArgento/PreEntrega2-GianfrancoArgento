@@ -1,0 +1,25 @@
+/*Paleta de colores*/
+$bg-body: #f8f3f3;
+$bg-formulario: #0a0a0a;
+$color-h1: #ed9145;
+$color-h2: #ed9145cc;
+
+/*FUENTES*/
+$fuente-principal: 'Raleway', sans-serif;
+$fuente-chica: 16px;
+$fuente-media: 20px;
+$fuente-grande: 25px;
+$fuente-MasGrande: 30px;
+
+/*MIXINS*/
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin medidas($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
