@@ -55,12 +55,25 @@ footer {
 }
 
 .copyright {
-    background-color: rgb(38, 43, 43);
+    background-color: rgb(3, 3, 3);
 }
 
 .iconos-redes img {
     padding: 10px;
     width: 55px;
+
+    &:hover {
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+}
+
+.mb-4 {
+    margin:  5px !important;
+
+    a {
+        padding: 20px;
+    }
 }
 
 
