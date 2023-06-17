@@ -16,7 +16,7 @@ img {
 .img-escenas {
     @include flex-row-center;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin: 70px auto;
 
     img {
     @include medidas (300px, 200px);
